@@ -96,7 +96,7 @@ def train():
     metrics=tf.metrics.BinaryAccuracy(threshold=0.0)
   )
 
-  epochs = 1
+  epochs = 30
   history = model.fit(
     train_ds,
     validation_data=val_ds,
