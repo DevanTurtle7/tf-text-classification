@@ -46,7 +46,7 @@ def train():
     batch_size=batch_size
   )
 
-  max_features = 10000
+  max_features = 10000 # Maximum number of words
   sequence_length = 250
 
   vectorize_layer = layers.TextVectorization(
